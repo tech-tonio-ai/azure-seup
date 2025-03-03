@@ -1,4 +1,15 @@
-# Azure Setup
+## Azure Setup Hierarchy
+```
+Microsoft Account
+└── Azure Subscription
+    └── Azure Active Directory (AAD)
+        └── Resource Groups (RG)
+            ├── Virtual Network (VNet)
+            │   └── Subnets
+            └── Virtual Machines (VMs)
+                ├── DC-1 (Domain Controller)
+                └── Client-1
+```
 
 ## 1. Microsoft Account & Azure Subscription
 - Create a **Microsoft Account**.
