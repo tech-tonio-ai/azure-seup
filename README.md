@@ -1,0 +1,2 @@
+# azure-seup
+Azure setup 
